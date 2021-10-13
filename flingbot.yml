@@ -1,0 +1,32 @@
+name: flingbot
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - tqdm
+  - pytorch
+  - torchvision
+  - scipy
+  - cudatoolkit=10.1
+  - imageio
+  - matplotlib
+  - numpy
+  - pip
+  - pybind11
+  - python=3.6
+  - scikit-image
+  - seaborn
+  - pip:
+    - h5py
+    - numpy-quaternion
+    - opencv-python
+    - openexr
+    - filelock
+    - pyquaternion
+    - ray[default]
+    - scipy
+    - tensorboardx
+    - transformations
+    - transforms3d
+    - trimesh
